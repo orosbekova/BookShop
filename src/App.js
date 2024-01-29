@@ -6,6 +6,7 @@ import Logo from "./components/logo/Logo";
 import Content from "./components/content/Content";
 import Books from "./components/books/Books";
 import About from "./components/about/About";
+import Section from "./section/Section";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/books" element={<Books />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Section />
     </div>
   );
 }
